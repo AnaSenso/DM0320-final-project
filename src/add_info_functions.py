@@ -1,4 +1,9 @@
+from clean_data import *
 from fa_functions import *
+
+import pandas as pd
+import statistics
+from statistics import mode
 
 # Create data frame with the factorial analysis per item (used for Dimensions)
 def item_corr(df, name):
@@ -23,6 +28,47 @@ def fac_corr_df(df, dfv, dfv_col):
 def add_info(info_df, df):
     tot = info_df.merge(df, left_index=True, right_index=True, how='outer')
     return tot
+
+# Add info if the actual dim and the estimated im are diferent
+def dim_err(row):
+    if row['Dimension'] == row['fa_dim']:
+        val = 0
+    elif row['Dimension'] != row['fa_dim']:
+        val = 1
+    return val
+
+def fac_err(row):
+    if row['Facet'] == row['fa_facet']:
+        val = 0
+    elif row['Facet'] != row['fa_facet']:
+        val = 1
+    return val
+
+# Identify Dimensions and Facets
+def mod_dim(dim, df):
+    lis = [df.iloc[i]['Dimension'] for i,e in df.iterrows() if df.iloc[i]['f_dimension'] == f'{dim}']
+    try:
+        return mode(lis)
+    except:
+        return f"Dimension not accurate enough"
+    
+def mod_fac(dim, df):
+    lis = [df.iloc[i]['Facet'] for i,e in df.iterrows() if df.iloc[i]['f_facet'] == f'{dim}']
+    try:
+        return mode(lis)
+    except:
+        return f"Facet not accurate enough"
+
+# Create a df per dimansion with all the items that need to be revised
+def get_dim_df(df, df_err, dim):
+    if dim in set(list(df['Dimension'])):
+        dff = df.loc[df['Dimension'] == str(dim)].drop(columns = ['dim_error','fac_error'])
+        return dff.loc[dff['fa_dim'] == df_err.loc[dim].idxmax()]
+
+# Get all items that need to be revised
+def get_it_df(df):
+    dff = df.loc[(df['dim_error'] == 1)]
+    return dff
 
 #======= NOT USED, YET =======#
 # Define item satuartion

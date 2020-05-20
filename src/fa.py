@@ -1,6 +1,6 @@
-from fa_functions import *
 from add_info_functions import *
 from clean_data import *
+from fa_functions import *
 
 df = df300
 info = info300
@@ -51,4 +51,5 @@ infoDF = infoDF.drop(infoDF.filter(regex=("facet_")), axis=1)
 
 print('PHASE 5. Exporting info dataframe as csv ...')
 infoDF.to_csv(f"../output/IPIP_{len(infoDF)}_AN.csv")
+
 print(infoDF.head(3))

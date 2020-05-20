@@ -9,9 +9,7 @@ from factor_analyzer import FactorAnalyzer
 from factor_analyzer.factor_analyzer import calculate_bartlett_sphericity
 from factor_analyzer.factor_analyzer import calculate_kmo
 
-def drop_nn(df):
-    df = df.select_dtypes(include=['number'])
-    return df
+from clean_data import *
 
 # Validate if it's posible to perform Factorial analysis
 def perform_fa(df):
