@@ -1,10 +1,10 @@
 from fa_functions import *
 from add_info_functions import *
+from clean_data import *
 
-df = pd.read_csv("../data/clean_data/IPIP_20_test.csv").drop(columns=['Unnamed: 0'])
-df.index = df.index+1
-
-info = pd.read_csv("../data/clean_data/IPIP_20_desc_item.csv").drop(columns=['Unnamed: 0']).set_index('item#')
+df = df300
+info = info300
+#input('What df do you want to use?')
 
 print('PHASE 1. Validate if factorial analysisi can be performed ...')
 print(perform_fa(df))
@@ -50,5 +50,5 @@ infoDF['f_facet'] = infoDF.filter(regex=("facet_")).apply(lambda x: ''.join(x.as
 infoDF = infoDF.drop(infoDF.filter(regex=("facet_")), axis=1)
 
 print('PHASE 5. Exporting info dataframe as csv ...')
-infoDF.to_csv("../data/clean_data/IPIP_300_AN.csv")
+infoDF.to_csv(f"../output/IPIP_{len(infoDF)}_AN.csv")
 print(infoDF.head(3))

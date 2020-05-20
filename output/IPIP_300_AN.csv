@@ -1,0 +1,301 @@
+item#,Item,Sign,Key,Dimension,Facet,f_dimension,f_facet
+i1,Worry about things.,+N1,N1,Neuroticism,Anxiety,dimension1,dimension1_facet3
+i10,Like order.,+C2,C2,Conscientiousness,Orderliness,dimension3,dimension3_facet2
+i100,Love order and regularity.,+C2,C2,Conscientiousness,Orderliness,dimension3,dimension3_facet2
+i101,Have a low opinion of myself.,+N3,N3,Neuroticism,Depression,dimension1,dimension1_facet4
+i102,Seek to influence others.,+E3,E3,Extraversion,Assertiveness,dimension2,dimension2_facet3
+i103,Enjoy examining myself and my life.,+O3,O3,Openness,Emotionality,dimension5,dimension5_facet6
+i104,Am concerned about others.,+A3,A3,Agreeableness,Altruism,dimension4,dimension4_facet1
+i105,Tell the truth.,+C3,C3,Conscientiousness,Dutifulness,dimension3,dimension3_facet4
+i106,Am afraid to draw attention to myself.,+N4,N4,Neuroticism,Self-Consciousness,dimension1,dimension1_facet1
+i107,Can manage many things at the same time.,+E4,E4,Extraversion,Activity Level,dimension3,dimension3_facet1
+i108,Like to begin new things.,+O4,O4,Openness,Adventurousness,dimension5,dimension5_facet5
+i109,Have a sharp tongue.,-A4,A4,Agreeableness,Cooperation,dimension4,dimension4_facet4
+i11,Often feel blue.,+N3,N3,Neuroticism,Depression,dimension1,dimension1_facet5
+i110,Plunge into tasks with all my heart.,+C4,C4,Conscientiousness,Achievement-Striving,dimension3,dimension3_facet1
+i111,Go on binges.,+N5,N5,Neuroticism,Immoderation,dimension1,dimension1_facet6
+i112,Enjoy being part of a loud crowd.,+E5,E5,Extraversion,Excitement-Seeking,dimension2,dimension2_facet1
+i113,Can handle a lot of information.,+O5,O5,Openness,Intellect,dimension5,dimension5_facet2
+i114,Seldom toot my own horn.,+A5,A5,Agreeableness,Modesty,dimension4,dimension4_facet4
+i115,Get to work at once.,+C5,C5,Conscientiousness,Self-Discipline,dimension3,dimension3_facet1
+i116,Can't make up my mind.,+N6,N6,Neuroticism,Vulnerability,dimension1,dimension1_facet1
+i117,Laugh my way through life.,+E6,E6,Extraversion,Cheerfulness,dimension2,dimension2_facet4
+i118,Believe in one true religion.,-O6,O6,Openness,Liberalism,dimension5,dimension5_facet4
+i119,Suffer from others' sorrows.,+A6,A6,Agreeableness,Sympathy,dimension4,dimension4_facet1
+i12,Take charge.,+E3,E3,Extraversion,Assertiveness,dimension2,dimension2_facet3
+i120,Jump into things without thinking.,-C6,C6,Conscientiousness,Cautiousness,dimension3,dimension3_facet3
+i121,Get caught up in my problems.,+N1,N1,Neuroticism,Anxiety,dimension1,dimension1_facet3
+i122,Cheer people up.,+E1,E1,Extraversion,Friendliness,dimension2,dimension2_facet4
+i123,Indulge in my fantasies.,+O1,O1,Openness,Imagination,dimension5,dimension5_facet1
+i124,Believe in human goodness.,+A1,A1,Agreeableness,Trust,dimension4,dimension4_facet2
+i125,Come up with good solutions.,+C1,C1,Conscientiousness,Self-Efficacy,dimension5,dimension5_facet5
+i126,Lose my temper.,+N2,N2,Neuroticism,Anger,dimension1,dimension1_facet2
+i127,Love surprise parties.,+E2,E2,Extraversion,Gregariousness,dimension2,dimension2_facet1
+i128,Enjoy the beauty of nature.,+O2,O2,Openness,Artistic Interests,dimension5,dimension5_facet3
+i129,Know how to get around the rules.,-A2,A2,Agreeableness,Morality,dimension4,dimension4_facet3
+i13,Experience my emotions intensely.,+O3,O3,Openness,Emotionality,dimension1,dimension1_facet3
+i130,Do things according to a plan.,+C2,C2,Conscientiousness,Orderliness,dimension3,dimension3_facet2
+i131,Have frequent mood swings.,+N3,N3,Neuroticism,Depression,dimension1,dimension1_facet2
+i132,Take control of things.,+E3,E3,Extraversion,Assertiveness,dimension3,dimension3_facet1
+i133,Try to understand myself.,+O3,O3,Openness,Emotionality,dimension5,dimension5_facet6
+i134,Have a good word for everyone.,+A3,A3,Agreeableness,Altruism,dimension4,dimension4_facet2
+i135,Listen to my conscience.,+C3,C3,Conscientiousness,Dutifulness,dimension4,dimension4_facet3
+i136,Only feel comfortable with friends.,+N4,N4,Neuroticism,Self-Consciousness,dimension1,dimension1_facet1
+i137,React quickly.,+E4,E4,Extraversion,Activity Level,dimension2,dimension2_facet3
+i138,Prefer to stick with things that I know.,-O4,O4,Openness,Adventurousness,dimension5,dimension5_facet5
+i139,Contradict others.,-A4,A4,Agreeableness,Cooperation,dimension4,dimension4_facet3
+i14,Make people feel welcome.,+A3,A3,Agreeableness,Altruism,dimension4,dimension4_facet1
+i140,Do more than what's expected of me.,+C4,C4,Conscientiousness,Achievement-Striving,dimension3,dimension3_facet1
+i141,Love to eat.,+N5,N5,Neuroticism,Immoderation,dimension1,dimension1_facet6
+i142,Enjoy being reckless.,+E5,E5,Extraversion,Excitement-Seeking,dimension2,dimension2_facet2
+i143,Enjoy thinking about things.,+O5,O5,Openness,Intellect,dimension5,dimension5_facet6
+i144,Believe that I am better than others.,-A5,A5,Agreeableness,Modesty,dimension4,dimension4_facet5
+i145,Carry out my plans.,+C5,C5,Conscientiousness,Self-Discipline,dimension3,dimension3_facet1
+i146,Get overwhelmed by emotions.,+N6,N6,Neuroticism,Vulnerability,dimension1,dimension1_facet3
+i147,Love life.,+E6,E6,Extraversion,Cheerfulness,dimension2,dimension2_facet4
+i148,Tend to vote for conservative political candidates.,-O6,O6,Openness,Liberalism,dimension5,dimension5_facet4
+i149,Am not interested in other people's problems.,-A6,A6,Agreeableness,Sympathy,dimension4,dimension4_facet1
+i15,Try to follow the rules.,+C3,C3,Conscientiousness,Dutifulness,dimension3,dimension3_facet4
+i150,Make rash decisions.,-C6,C6,Conscientiousness,Cautiousness,dimension3,dimension3_facet3
+i151,Am not easily bothered by things.,-N1,N1,Neuroticism,Anxiety,dimension1,dimension1_facet3
+i152,Am hard to get to know.,-E1,E1,Extraversion,Friendliness,dimension2,dimension2_facet1
+i153,Spend time reflecting on things.,+O1,O1,Openness,Imagination,dimension5,dimension5_facet6
+i154,Think that all will be well.,+A1,A1,Agreeableness,Trust,dimension4,dimension4_facet2
+i155,Know how to get things done.,+C1,C1,Conscientiousness,Self-Efficacy,dimension3,dimension3_facet1
+i156,Rarely get irritated.,-N2,N2,Neuroticism,Anger,dimension1,dimension1_facet2
+i157,Prefer to be alone.,-E2,E2,Extraversion,Gregariousness,dimension2,dimension2_facet1
+i158,Do not like art.,-O2,O2,Openness,Artistic Interests,dimension5,dimension5_facet3
+i159,Cheat to get ahead.,-A2,A2,Agreeableness,Morality,dimension4,dimension4_facet3
+i16,Am easily intimidated.,+N4,N4,Neuroticism,Self-Consciousness,dimension1,dimension1_facet1
+i160,Often forget to put things back in their proper place.,-C2,C2,Conscientiousness,Orderliness,dimension3,dimension3_facet2
+i161,Feel desperate.,+N3,N3,Neuroticism,Depression,dimension1,dimension1_facet5
+i162,Wait for others to lead the way.,-E3,E3,Extraversion,Assertiveness,dimension2,dimension2_facet3
+i163,Seldom get emotional.,-O3,O3,Openness,Emotionality,dimension1,dimension1_facet3
+i164,Look down on others.,-A3,A3,Agreeableness,Altruism,dimension4,dimension4_facet3
+i165,Break rules.,-C3,C3,Conscientiousness,Dutifulness,dimension4,dimension4_facet3
+i166,Stumble over my words.,+N4,N4,Neuroticism,Self-Consciousness,dimension1,dimension1_facet1
+i167,Like to take it easy.,-E4,E4,Extraversion,Activity Level,dimension3,dimension3_facet5
+i168,Dislike changes.,-O4,O4,Openness,Adventurousness,dimension2,dimension2_facet6
+i169,Love a good fight.,-A4,A4,Agreeableness,Cooperation,dimension4,dimension4_facet4
+i17,Am always busy.,+E4,E4,Extraversion,Activity Level,dimension3,dimension3_facet1
+i170,Set high standards for myself and others.,+C4,C4,Conscientiousness,Achievement-Striving,dimension3,dimension3_facet1
+i171,Rarely overindulge.,-N5,N5,Neuroticism,Immoderation,dimension1,dimension1_facet6
+i172,Act wild and crazy.,+E5,E5,Extraversion,Excitement-Seeking,dimension2,dimension2_facet2
+i173,Am not interested in abstract ideas.,-O5,O5,Openness,Intellect,dimension5,dimension5_facet2
+i174,Think highly of myself.,-A5,A5,Agreeableness,Modesty,dimension1,dimension1_facet4
+i175,Find it difficult to get down to work.,-C5,C5,Conscientiousness,Self-Discipline,dimension3,dimension3_facet1
+i176,Remain calm under pressure.,-N6,N6,Neuroticism,Vulnerability,dimension1,dimension1_facet1
+i177,Look at the bright side of life.,+E6,E6,Extraversion,Cheerfulness,dimension2,dimension2_facet4
+i178,Believe that too much tax money goes to support artists.,-O6,O6,Openness,Liberalism,dimension5,dimension5_facet3
+i179,Tend to dislike soft-hearted people.,-A6,A6,Agreeableness,Sympathy,dimension4,dimension4_facet1
+i18,Prefer variety to routine.,+O4,O4,Openness,Adventurousness,dimension2,dimension2_facet6
+i180,Like to act on a whim.,-C6,C6,Conscientiousness,Cautiousness,dimension3,dimension3_facet3
+i181,Am relaxed most of the time.,-N1,N1,Neuroticism,Anxiety,dimension1,dimension1_facet2
+i182,Often feel uncomfortable around others.,-E1,E1,Extraversion,Friendliness,dimension2,dimension2_facet1
+i183,Seldom daydream.,-O1,O1,Openness,Imagination,dimension5,dimension5_facet1
+i184,Distrust people.,-A1,A1,Agreeableness,Trust,dimension4,dimension4_facet2
+i185,Misjudge situations.,-C1,C1,Conscientiousness,Self-Efficacy,dimension3,dimension3_facet3
+i186,Seldom get mad.,-N2,N2,Neuroticism,Anger,dimension1,dimension1_facet2
+i187,Want to be left alone.,-E2,E2,Extraversion,Gregariousness,dimension2,dimension2_facet1
+i188,Do not like poetry.,-O2,O2,Openness,Artistic Interests,dimension5,dimension5_facet3
+i189,Put people under pressure.,-A2,A2,Agreeableness,Morality,dimension4,dimension4_facet3
+i19,Am easy to satisfy.,+A4,A4,Agreeableness,Cooperation,dimension4,dimension4_facet2
+i190,Leave a mess in my room.,-C2,C2,Conscientiousness,Orderliness,dimension3,dimension3_facet2
+i191,Feel that my life lacks direction.,+N3,N3,Neuroticism,Depression,dimension1,dimension1_facet5
+i192,Keep in the background.,-E3,E3,Extraversion,Assertiveness,dimension2,dimension2_facet3
+i193,Am not easily affected by my emotions.,-O3,O3,Openness,Emotionality,dimension1,dimension1_facet3
+i194,Am indifferent to the feelings of others.,-A3,A3,Agreeableness,Altruism,dimension4,dimension4_facet1
+i195,Break my promises.,-C3,C3,Conscientiousness,Dutifulness,dimension3,dimension3_facet1
+i196,Am not embarrassed easily.,-N4,N4,Neuroticism,Self-Consciousness,dimension1,dimension1_facet1
+i197,Like to take my time.,-E4,E4,Extraversion,Activity Level,dimension3,dimension3_facet5
+i198,Don't like the idea of change.,-O4,O4,Openness,Adventurousness,dimension5,dimension5_facet5
+i199,Yell at people.,-A4,A4,Agreeableness,Cooperation,dimension4,dimension4_facet3
+i2,Make friends easily.,+E1,E1,Extraversion,Friendliness,dimension2,dimension2_facet1
+i20,Go straight for the goal.,+C4,C4,Conscientiousness,Achievement-Striving,dimension3,dimension3_facet1
+i200,Demand quality.,+C4,C4,Conscientiousness,Achievement-Striving,dimension3,dimension3_facet1
+i201,Easily resist temptations.,-N5,N5,Neuroticism,Immoderation,dimension1,dimension1_facet6
+i202,Willing to try anything once.,+E5,E5,Extraversion,Excitement-Seeking,dimension2,dimension2_facet2
+i203,Avoid philosophical discussions.,-O5,O5,Openness,Intellect,dimension5,dimension5_facet2
+i204,Have a high opinion of myself.,-A5,A5,Agreeableness,Modesty,dimension1,dimension1_facet4
+i205,Waste my time.,-C5,C5,Conscientiousness,Self-Discipline,dimension3,dimension3_facet1
+i206,Can handle complex problems.,-N6,N6,Neuroticism,Vulnerability,dimension1,dimension1_facet1
+i207,Laugh aloud.,+E6,E6,Extraversion,Cheerfulness,dimension2,dimension2_facet5
+i208,Believe laws should be strictly enforced.,-O6,O6,Openness,Liberalism,dimension5,dimension5_facet4
+i209,Believe in an eye for an eye.,-A6,A6,Agreeableness,Sympathy,dimension4,dimension4_facet6
+i21,Often eat too much.,+N5,N5,Neuroticism,Immoderation,dimension1,dimension1_facet6
+i210,Rush into things.,-C6,C6,Conscientiousness,Cautiousness,dimension3,dimension3_facet3
+i211,Am not easily disturbed by events.,-N1,N1,Neuroticism,Anxiety,dimension1,dimension1_facet3
+i212,Avoid contacts with others.,-E1,E1,Extraversion,Friendliness,dimension2,dimension2_facet1
+i213,Do not have a good imagination.,-O1,O1,Openness,Imagination,dimension5,dimension5_facet1
+i214,Suspect hidden motives in others.,-A1,A1,Agreeableness,Trust,dimension4,dimension4_facet2
+i215,Don't understand things.,-C1,C1,Conscientiousness,Self-Efficacy,dimension5,dimension5_facet2
+i216,Am not easily annoyed.,-N2,N2,Neuroticism,Anger,dimension1,dimension1_facet2
+i217,Don't like crowded events.,-E2,E2,Extraversion,Gregariousness,dimension2,dimension2_facet1
+i218,Do not enjoy going to art museums.,-O2,O2,Openness,Artistic Interests,dimension5,dimension5_facet3
+i219,Pretend to be concerned for others.,-A2,A2,Agreeableness,Morality,dimension4,dimension4_facet1
+i22,Love excitement.,+E5,E5,Extraversion,Excitement-Seeking,dimension2,dimension2_facet2
+i220,Leave my belongings around.,-C2,C2,Conscientiousness,Orderliness,dimension3,dimension3_facet2
+i221,Seldom feel blue.,-N3,N3,Neuroticism,Depression,dimension1,dimension1_facet5
+i222,Have little to say.,-E3,E3,Extraversion,Assertiveness,dimension2,dimension2_facet3
+i223,Rarely notice my emotional reactions.,-O3,O3,Openness,Emotionality,dimension5,dimension5_facet6
+i224,Make people feel uncomfortable.,-A3,A3,Agreeableness,Altruism,dimension4,dimension4_facet2
+i225,Get others to do my duties.,-C3,C3,Conscientiousness,Dutifulness,dimension4,dimension4_facet3
+i226,Am comfortable in unfamiliar situations.,-N4,N4,Neuroticism,Self-Consciousness,dimension1,dimension1_facet1
+i227,Like a leisurely lifestyle.,-E4,E4,Extraversion,Activity Level,dimension3,dimension3_facet5
+i228,Am a creature of habit.,-O4,O4,Openness,Adventurousness,dimension2,dimension2_facet6
+i229,Insult people.,-A4,A4,Agreeableness,Cooperation,dimension4,dimension4_facet3
+i23,Like to solve complex problems.,+O5,O5,Openness,Intellect,dimension5,dimension5_facet2
+i230,Am not highly motivated to succeed.,-C4,C4,Conscientiousness,Achievement-Striving,dimension3,dimension3_facet1
+i231,Am able to control my cravings.,-N5,N5,Neuroticism,Immoderation,dimension1,dimension1_facet6
+i232,Seek danger.,+E5,E5,Extraversion,Excitement-Seeking,dimension2,dimension2_facet2
+i233,Have difficulty understanding abstract ideas.,-O5,O5,Openness,Intellect,dimension5,dimension5_facet2
+i234,Know the answers to many questions.,-A5,A5,Agreeableness,Modesty,dimension4,dimension4_facet5
+i235,Need a push to get started.,-C5,C5,Conscientiousness,Self-Discipline,dimension3,dimension3_facet1
+i236,Know how to cope.,-N6,N6,Neuroticism,Vulnerability,dimension1,dimension1_facet1
+i237,Amuse my friends.,+E6,E6,Extraversion,Cheerfulness,dimension2,dimension2_facet5
+i238,Believe that we coddle criminals too much.,-O6,O6,Openness,Liberalism,dimension5,dimension5_facet4
+i239,Try not to think about the needy.,-A6,A6,Agreeableness,Sympathy,dimension4,dimension4_facet1
+i24,Dislike being the center of attention.,+A5,A5,Agreeableness,Modesty,dimension4,dimension4_facet4
+i240,Do crazy things.,-C6,C6,Conscientiousness,Cautiousness,dimension3,dimension3_facet3
+i241,Don't worry about things that have already happened.,-N1,N1,Neuroticism,Anxiety,dimension1,dimension1_facet3
+i242,Am not really interested in others.,-E1,E1,Extraversion,Friendliness,dimension4,dimension4_facet1
+i243,Seldom get lost in thought.,-O1,O1,Openness,Imagination,dimension5,dimension5_facet1
+i244,Am wary of others.,-A1,A1,Agreeableness,Trust,dimension4,dimension4_facet2
+i245,Have little to contribute.,-C1,C1,Conscientiousness,Self-Efficacy,dimension5,dimension5_facet5
+i246,Keep my cool.,-N2,N2,Neuroticism,Anger,dimension1,dimension1_facet2
+i247,Avoid crowds.,-E2,E2,Extraversion,Gregariousness,dimension2,dimension2_facet1
+i248,Do not like concerts.,-O2,O2,Openness,Artistic Interests,dimension2,dimension2_facet1
+i249,Take advantage of others.,-A2,A2,Agreeableness,Morality,dimension4,dimension4_facet3
+i25,Get chores done right away.,+C5,C5,Conscientiousness,Self-Discipline,dimension3,dimension3_facet2
+i250,Am not bothered by messy people.,-C2,C2,Conscientiousness,Orderliness,dimension3,dimension3_facet2
+i251,Feel comfortable with myself.,-N3,N3,Neuroticism,Depression,dimension1,dimension1_facet4
+i252,Don't like to draw attention to myself.,-E3,E3,Extraversion,Assertiveness,dimension2,dimension2_facet1
+i253,Experience very few emotional highs and lows.,-O3,O3,Openness,Emotionality,dimension1,dimension1_facet3
+i254,Turn my back on others.,-A3,A3,Agreeableness,Altruism,dimension4,dimension4_facet1
+i255,Do the opposite of what is asked.,-C3,C3,Conscientiousness,Dutifulness,dimension3,dimension3_facet4
+i256,Am not bothered by difficult social situations.,-N4,N4,Neuroticism,Self-Consciousness,dimension1,dimension1_facet1
+i257,Let things proceed at their own pace.,-E4,E4,Extraversion,Activity Level,dimension3,dimension3_facet5
+i258,Dislike new foods.,-O4,O4,Openness,Adventurousness,dimension5,dimension5_facet5
+i259,Get back at others.,-A4,A4,Agreeableness,Cooperation,dimension4,dimension4_facet3
+i26,Panic easily.,+N6,N6,Neuroticism,Vulnerability,dimension1,dimension1_facet1
+i260,Do just enough work to get by.,-C4,C4,Conscientiousness,Achievement-Striving,dimension3,dimension3_facet5
+i261,Never spend more than I can afford.,-N5,N5,Neuroticism,Immoderation,dimension1,dimension1_facet6
+i262,Would never go hang gliding or bungee jumping.,-E5,E5,Extraversion,Excitement-Seeking,dimension2,dimension2_facet2
+i263,Am not interested in theoretical discussions.,-O5,O5,Openness,Intellect,dimension5,dimension5_facet2
+i264,Boast about my virtues.,-A5,A5,Agreeableness,Modesty,dimension4,dimension4_facet3
+i265,Have difficulty starting tasks.,-C5,C5,Conscientiousness,Self-Discipline,dimension3,dimension3_facet1
+i266,Readily overcome setbacks.,-N6,N6,Neuroticism,Vulnerability,dimension1,dimension1_facet1
+i267,Am not easily amused.,-E6,E6,Extraversion,Cheerfulness,dimension4,dimension4_facet2
+i268,Believe that we should be tough on crime.,-O6,O6,Openness,Liberalism,dimension5,dimension5_facet4
+i269,Believe people should fend for themselves.,-A6,A6,Agreeableness,Sympathy,dimension4,dimension4_facet1
+i27,Radiate joy.,+E6,E6,Extraversion,Cheerfulness,dimension2,dimension2_facet4
+i270,Act without thinking.,-C6,C6,Conscientiousness,Cautiousness,dimension3,dimension3_facet3
+i271,Adapt easily to new situations.,-N1,N1,Neuroticism,Anxiety,dimension1,dimension1_facet1
+i272,Keep others at a distance.,-E1,E1,Extraversion,Friendliness,dimension2,dimension2_facet1
+i273,Have difficulty imagining things.,-O1,O1,Openness,Imagination,dimension5,dimension5_facet1
+i274,Believe that people are essentially evil.,-A1,A1,Agreeableness,Trust,dimension4,dimension4_facet2
+i275,Don't see the consequences of things.,-C1,C1,Conscientiousness,Self-Efficacy,dimension3,dimension3_facet3
+i276,Rarely complain.,-N2,N2,Neuroticism,Anger,dimension1,dimension1_facet2
+i277,Seek quiet.,-E2,E2,Extraversion,Gregariousness,dimension2,dimension2_facet1
+i278,Do not enjoy watching dance performances.,-O2,O2,Openness,Artistic Interests,dimension4,dimension4_facet1
+i279,Obstruct others' plans.,-A2,A2,Agreeableness,Morality,dimension4,dimension4_facet3
+i28,Tend to vote for liberal political candidates.,+O6,O6,Openness,Liberalism,dimension5,dimension5_facet4
+i280,Am not bothered by disorder.,-C2,C2,Conscientiousness,Orderliness,dimension3,dimension3_facet2
+i281,Am very pleased with myself.,-N3,N3,Neuroticism,Depression,dimension1,dimension1_facet4
+i282,Hold back my opinions.,-E3,E3,Extraversion,Assertiveness,dimension2,dimension2_facet3
+i283,Don't understand people who get emotional.,-O3,O3,Openness,Emotionality,dimension4,dimension4_facet1
+i284,Take no time for others.,-A3,A3,Agreeableness,Altruism,dimension4,dimension4_facet1
+i285,Misrepresent the facts.,-C3,C3,Conscientiousness,Dutifulness,dimension3,dimension3_facet3
+i286,Am able to stand up for myself.,-N4,N4,Neuroticism,Self-Consciousness,dimension1,dimension1_facet1
+i287,React slowly.,-E4,E4,Extraversion,Activity Level,dimension2,dimension2_facet3
+i288,Am attached to conventional ways.,-O4,O4,Openness,Adventurousness,dimension5,dimension5_facet5
+i289,Hold a grudge.,-A4,A4,Agreeableness,Cooperation,dimension4,dimension4_facet2
+i29,Sympathize with the homeless.,+A6,A6,Agreeableness,Sympathy,dimension4,dimension4_facet1
+i290,Put little time and effort into my work.,-C4,C4,Conscientiousness,Achievement-Striving,dimension3,dimension3_facet1
+i291,Never splurge.,-N5,N5,Neuroticism,Immoderation,dimension2,dimension2_facet5
+i292,Dislike loud music.,-E5,E5,Extraversion,Excitement-Seeking,dimension2,dimension2_facet2
+i293,Avoid difficult reading material.,-O5,O5,Openness,Intellect,dimension5,dimension5_facet2
+i294,Make myself the center of attention.,-A5,A5,Agreeableness,Modesty,dimension4,dimension4_facet4
+i295,Postpone decisions.,-C5,C5,Conscientiousness,Self-Discipline,dimension3,dimension3_facet1
+i296,Am calm even in tense situations.,-N6,N6,Neuroticism,Vulnerability,dimension1,dimension1_facet1
+i297,Seldom joke around.,-E6,E6,Extraversion,Cheerfulness,dimension2,dimension2_facet5
+i298,Like to stand during the national anthem.,-O6,O6,Openness,Liberalism,dimension5,dimension5_facet4
+i299,Can't stand weak people.,-A6,A6,Agreeableness,Sympathy,dimension4,dimension4_facet1
+i3,Have a vivid imagination.,+O1,O1,Openness,Imagination,dimension5,dimension5_facet1
+i30,Avoid mistakes.,+C6,C6,Conscientiousness,Cautiousness,dimension3,dimension3_facet1
+i300,Often make last-minute plans.,-C6,C6,Conscientiousness,Cautiousness,dimension3,dimension3_facet3
+i31,Fear for the worst.,+N1,N1,Neuroticism,Anxiety,dimension1,dimension1_facet1
+i32,Warm up quickly to others.,+E1,E1,Extraversion,Friendliness,dimension2,dimension2_facet4
+i33,Enjoy wild flights of fantasy.,+O1,O1,Openness,Imagination,dimension5,dimension5_facet1
+i34,Believe that others have good intentions.,+A1,A1,Agreeableness,Trust,dimension4,dimension4_facet2
+i35,Excel in what I do.,+C1,C1,Conscientiousness,Self-Efficacy,dimension3,dimension3_facet1
+i36,Get irritated easily.,+N2,N2,Neuroticism,Anger,dimension1,dimension1_facet2
+i37,Talk to a lot of different people at parties.,+E2,E2,Extraversion,Gregariousness,dimension2,dimension2_facet1
+i38,Like music.,+O2,O2,Openness,Artistic Interests,dimension2,dimension2_facet5
+i39,Stick to the rules.,+A2,A2,Agreeableness,Morality,dimension3,dimension3_facet4
+i4,Trust others.,+A1,A1,Agreeableness,Trust,dimension4,dimension4_facet2
+i40,Like to tidy up.,+C2,C2,Conscientiousness,Orderliness,dimension3,dimension3_facet2
+i41,Dislike myself.,+N3,N3,Neuroticism,Depression,dimension1,dimension1_facet4
+i42,Try to lead others.,+E3,E3,Extraversion,Assertiveness,dimension2,dimension2_facet3
+i43,Feel others' emotions.,+O3,O3,Openness,Emotionality,dimension4,dimension4_facet1
+i44,Anticipate the needs of others.,+A3,A3,Agreeableness,Altruism,dimension4,dimension4_facet1
+i45,Keep my promises.,+C3,C3,Conscientiousness,Dutifulness,dimension3,dimension3_facet1
+i46,Am afraid that I will do the wrong thing.,+N4,N4,Neuroticism,Self-Consciousness,dimension1,dimension1_facet1
+i47,Am always on the go.,+E4,E4,Extraversion,Activity Level,dimension2,dimension2_facet3
+i48,Like to visit new places.,+O4,O4,Openness,Adventurousness,dimension2,dimension2_facet2
+i49,Can't stand confrontations.,+A4,A4,Agreeableness,Cooperation,dimension4,dimension4_facet4
+i5,Complete tasks successfully.,+C1,C1,Conscientiousness,Self-Efficacy,dimension3,dimension3_facet1
+i50,Work hard.,+C4,C4,Conscientiousness,Achievement-Striving,dimension3,dimension3_facet1
+i51,Don't know why I do some of the things I do.,+N5,N5,Neuroticism,Immoderation,dimension1,dimension1_facet6
+i52,Seek adventure.,+E5,E5,Extraversion,Excitement-Seeking,dimension2,dimension2_facet2
+i53,Love to read challenging material.,+O5,O5,Openness,Intellect,dimension5,dimension5_facet2
+i54,Dislike talking about myself.,+A5,A5,Agreeableness,Modesty,dimension4,dimension4_facet4
+i55,Am always prepared.,+C5,C5,Conscientiousness,Self-Discipline,dimension3,dimension3_facet1
+i56,Become overwhelmed by events.,+N6,N6,Neuroticism,Vulnerability,dimension1,dimension1_facet1
+i57,Have a lot of fun.,+E6,E6,Extraversion,Cheerfulness,dimension2,dimension2_facet4
+i58,Believe that there is no absolute right or wrong.,+O6,O6,Openness,Liberalism,dimension5,dimension5_facet4
+i59,Feel sympathy for those who are worse off than myself.,+A6,A6,Agreeableness,Sympathy,dimension4,dimension4_facet1
+i6,Get angry easily.,+N2,N2,Neuroticism,Anger,dimension1,dimension1_facet2
+i60,Choose my words with care.,+C6,C6,Conscientiousness,Cautiousness,dimension4,dimension4_facet4
+i61,Am afraid of many things.,+N1,N1,Neuroticism,Anxiety,dimension1,dimension1_facet1
+i62,Feel comfortable around people.,+E1,E1,Extraversion,Friendliness,dimension2,dimension2_facet1
+i63,Love to daydream.,+O1,O1,Openness,Imagination,dimension5,dimension5_facet1
+i64,Trust what people say.,+A1,A1,Agreeableness,Trust,dimension4,dimension4_facet2
+i65,Handle tasks smoothly.,+C1,C1,Conscientiousness,Self-Efficacy,dimension3,dimension3_facet1
+i66,Get upset easily.,+N2,N2,Neuroticism,Anger,dimension1,dimension1_facet2
+i67,Enjoy being part of a group.,+E2,E2,Extraversion,Gregariousness,dimension2,dimension2_facet1
+i68,See beauty in things that others might not notice.,+O2,O2,Openness,Artistic Interests,dimension5,dimension5_facet3
+i69,Use flattery to get ahead.,-A2,A2,Agreeableness,Morality,dimension4,dimension4_facet3
+i7,Love large parties.,+E2,E2,Extraversion,Gregariousness,dimension2,dimension2_facet1
+i70,"Want everything to be ""just right.""",+C2,C2,Conscientiousness,Orderliness,dimension1,dimension1_facet1
+i71,Am often down in the dumps.,+N3,N3,Neuroticism,Depression,dimension1,dimension1_facet5
+i72,Can talk others into doing things.,+E3,E3,Extraversion,Assertiveness,dimension2,dimension2_facet3
+i73,Am passionate about causes.,+O3,O3,Openness,Emotionality,dimension5,dimension5_facet6
+i74,Love to help others.,+A3,A3,Agreeableness,Altruism,dimension4,dimension4_facet1
+i75,Pay my bills on time.,+C3,C3,Conscientiousness,Dutifulness,dimension3,dimension3_facet2
+i76,Find it difficult to approach others.,+N4,N4,Neuroticism,Self-Consciousness,dimension1,dimension1_facet1
+i77,Do a lot in my spare time.,+E4,E4,Extraversion,Activity Level,dimension3,dimension3_facet1
+i78,Interested in many things.,+O4,O4,Openness,Adventurousness,dimension5,dimension5_facet5
+i79,Hate to seem pushy.,+A4,A4,Agreeableness,Cooperation,dimension4,dimension4_facet4
+i8,Believe in the importance of art.,+O2,O2,Openness,Artistic Interests,dimension5,dimension5_facet3
+i80,Turn plans into actions.,+C4,C4,Conscientiousness,Achievement-Striving,dimension3,dimension3_facet1
+i81,Do things I later regret.,+N5,N5,Neuroticism,Immoderation,dimension1,dimension1_facet2
+i82,Love action.,+E5,E5,Extraversion,Excitement-Seeking,dimension2,dimension2_facet2
+i83,Have a rich vocabulary.,+O5,O5,Openness,Intellect,dimension5,dimension5_facet2
+i84,Consider myself an average person.,+A5,A5,Agreeableness,Modesty,dimension4,dimension4_facet5
+i85,Start tasks right away.,+C5,C5,Conscientiousness,Self-Discipline,dimension3,dimension3_facet1
+i86,Feel that I'm unable to deal with things.,+N6,N6,Neuroticism,Vulnerability,dimension1,dimension1_facet1
+i87,Express childlike joy.,+E6,E6,Extraversion,Cheerfulness,dimension2,dimension2_facet4
+i88,Believe that criminals should receive help rather than punishment.,+O6,O6,Openness,Liberalism,dimension5,dimension5_facet4
+i89,Value cooperation over competition.,+A6,A6,Agreeableness,Sympathy,dimension4,dimension4_facet4
+i9,Would never cheat on my taxes.,+A2,A2,Agreeableness,Morality,dimension4,dimension4_facet3
+i90,Stick to my chosen path.,+C6,C6,Conscientiousness,Cautiousness,dimension3,dimension3_facet1
+i91,Get stressed out easily.,+N1,N1,Neuroticism,Anxiety,dimension1,dimension1_facet3
+i92,Act comfortably with others.,+E1,E1,Extraversion,Friendliness,dimension2,dimension2_facet1
+i93,Like to get lost in thought.,+O1,O1,Openness,Imagination,dimension5,dimension5_facet1
+i94,Believe that people are basically moral.,+A1,A1,Agreeableness,Trust,dimension4,dimension4_facet2
+i95,Am sure of my ground.,+C1,C1,Conscientiousness,Self-Efficacy,dimension3,dimension3_facet1
+i96,Am often in a bad mood.,+N2,N2,Neuroticism,Anger,dimension1,dimension1_facet2
+i97,Involve others in what I am doing.,+E2,E2,Extraversion,Gregariousness,dimension2,dimension2_facet1
+i98,Love flowers.,+O2,O2,Openness,Artistic Interests,dimension4,dimension4_facet1
+i99,Use others for my own ends.,-A2,A2,Agreeableness,Morality,dimension4,dimension4_facet3
