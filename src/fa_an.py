@@ -26,9 +26,6 @@ def an_inf(df,an):
         df.drop(columns = ['f_dimension', 'f_facet'], inplace=True)
         res_df = {i:get_dim_df(df, d_error,f'{i}') for i in dims}
 
-        # sns.set()
-        # # sns.countplot(y='Dimension', hue='fa_dim', data=it_error, palette="deep")
-        # # plt.legend(loc='lower right')
         sns_plot = sns.countplot(y='Dimension', hue='fa_dim', data=it_error, palette="deep")
         fig = sns_plot.get_figure()
         fig.savefig(f"output/imag/{len(df)}_dimplot.png")

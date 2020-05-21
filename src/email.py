@@ -21,8 +21,9 @@ def dim_email(text):
     msg = MIMEMultipart()
     msg["Subject"] = f'Factor Analysis: Dimension deep-dive'
     msg["Date"] = formatdate(localtime=True)
-    msg.attach(MIMEText(f'Hello,\n\nHere you have the item Factor Analysis:\n\n\n{text}'))
+    msg.attach(MIMEText(f'Hello,\n\nHere you have the item Factor Analysis:\n\n{text}\n\nThanks for using SIVA :)'))
     
+
     #Send mail 
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
@@ -34,9 +35,14 @@ def it_email(text):
     msg = MIMEMultipart()
     msg["Subject"] = f'Factor Analysis: Item deep-dive'
     msg["Date"] = formatdate(localtime=True)
-    msg.attach(MIMEText(f'Hello,\n\nHere you have the item Factor Analysis\n\n\n\n{text}'))
+    msg.attach(MIMEText(f'Hello,\n\nHere you have the item Factor Analysis:\n\n{text}\n\nThanks for using SIVA :)'))
     
-    
+    part = MIMEBase('application', "octet-stream")
+    part.set_payload(open("output/IT_300_AN.csv", "rb").read())
+    encoders.encode_base64(part)
+    part.add_header('Content-Disposition', 'attachment; filename="IT_300_AN.csv"')
+    msg.attach(part)
+
     #Send mail 
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
