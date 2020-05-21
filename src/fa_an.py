@@ -28,11 +28,11 @@ def an_inf(df,an):
 
         sns_plot = sns.countplot(y='Dimension', hue='fa_dim', data=it_error, palette="deep")
         fig = sns_plot.get_figure()
-        fig.savefig(f"output/imag/{len(df)}_dimplot.png")
+        fig.savefig(f"output/dimplot.png")
 
         print('Create and save a df for each miension error items ...')
         for e in dims:
-            res_df[e].to_csv(f"output/dim_{len(df)}_an/{e}_{len(df)}_AN.csv")
+            res_df[e].to_csv(f"output/DIM_{e}_{len(df)}_AN.csv")
             print(f"{e} dataframe has been created")
 
         if len(it_error) == 0:
