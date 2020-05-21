@@ -1,9 +1,14 @@
-from clean_data import *
-from fa_functions import *
+#from clean_data import *
+from src.fn_fa import *
 
 import pandas as pd
 import statistics
 from statistics import mode
+
+# Help function to clean not-numeric columns
+def drop_nn(df):
+    df = df.select_dtypes(include=['number'])
+    return df
 
 # Create data frame with the factorial analysis per item (used for Dimensions)
 def item_corr(df, name):
@@ -45,15 +50,15 @@ def fac_err(row):
     return val
 
 # Identify Dimensions and Facets
-def mod_dim(dim, df):
-    lis = [df.iloc[i]['Dimension'] for i,e in df.iterrows() if df.iloc[i]['f_dimension'] == f'{dim}']
+def mod_dim(dim, dft):
+    lis = [dft.iloc[i]['Dimension'] for i,e in dft.iterrows() if dft.iloc[i]['f_dimension'] == f'{dim}']
     try:
         return mode(lis)
     except:
         return f"Dimension not accurate enough"
     
-def mod_fac(dim, df):
-    lis = [df.iloc[i]['Facet'] for i,e in df.iterrows() if df.iloc[i]['f_facet'] == f'{dim}']
+def mod_fac(dim, dft):
+    lis = [dft.iloc[i]['Facet'] for i,e in dft.iterrows() if dft.iloc[i]['f_facet'] == f'{dim}']
     try:
         return mode(lis)
     except:
@@ -68,7 +73,8 @@ def get_dim_df(df, df_err, dim):
 # Get all items that need to be revised
 def get_it_df(df):
     dff = df.loc[(df['dim_error'] == 1)]
-    return dff
+    return dff.set_index('item#')
+
 
 #======= NOT USED, YET =======#
 # Define item satuartion

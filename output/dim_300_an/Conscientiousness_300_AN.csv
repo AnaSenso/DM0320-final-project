@@ -1,0 +1,5 @@
+,item#,Item,Sign,Key,Dimension,Facet,f_dimension,f_facet,fa_dim,fa_facet
+40,i135,Listen to my conscience.,+C3,C3,Conscientiousness,Dutifulness,dimension4,dimension4_facet3,Agreeableness,Dimension not accurate enough
+73,i165,Break rules.,-C3,C3,Conscientiousness,Dutifulness,dimension4,dimension4_facet3,Agreeableness,Dimension not accurate enough
+140,i225,Get others to do my duties.,-C3,C3,Conscientiousness,Dutifulness,dimension4,dimension4_facet3,Agreeableness,Dimension not accurate enough
+257,i60,Choose my words with care.,+C6,C6,Conscientiousness,Cautiousness,dimension4,dimension4_facet4,Agreeableness,Dimension not accurate enough

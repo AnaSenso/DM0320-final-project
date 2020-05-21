@@ -9,7 +9,10 @@ from factor_analyzer import FactorAnalyzer
 from factor_analyzer.factor_analyzer import calculate_bartlett_sphericity
 from factor_analyzer.factor_analyzer import calculate_kmo
 
-from clean_data import *
+
+def drop_nn(df):
+    df = df.select_dtypes(include=['number'])
+    return df
 
 # Validate if it's posible to perform Factorial analysis
 def perform_fa(df):
@@ -34,13 +37,6 @@ def show_num_factors(df):
     ev, v = fa.get_eigenvalues()
     num_f = len([e for e in ev if e > ev.mean() + 2 * ev.std()])
     res_f = len([e for e in ev if e > 1])
-    plt.scatter(range(1,df.shape[1]+1),ev)
-    plt.plot(range(1,df.shape[1]+1),ev)
-    plt.title('Scree Plot')
-    plt.xlabel('Factors')
-    plt.ylabel('Eigenvalue')
-    plt.grid()
-    plt.show()
     return f"Best number of factors: {num_f}. Other possible factors {res_f-num_f}"
 
 def best_num_factors(df):
