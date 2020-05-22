@@ -48,7 +48,6 @@ def fa(df,info):
     print('PHASE 5. Exporting info dataframe as csv ...')
     infoDF.to_csv(f"output/IPIP_{len(infoDF)}_AN.csv")
 
-    print(infoDF.head(3))
     return infoDF
 
 
