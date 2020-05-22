@@ -1,6 +1,6 @@
 # Proyecto final - Ana Senso
 
-## SHIVA: Sistema de validación y análisis de test de personalidad
+## SIVA: Sistema de validación y análisis de test de personalidad
 ![Image](https://github.com/AnaSenso/DM0320-final-project/blob/master/output/Image.png)
 
 ## Descripción del proyecto:
